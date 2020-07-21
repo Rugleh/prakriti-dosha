@@ -1,0 +1,24 @@
+[
+    {
+        "id":       1,
+        "question": "Weight" ,
+        "a" :       "Usually thin, often difficult to put on weight, visible ribs, weight can vary",
+        "b" :       "Medium build, good muscle tone",
+        "c" :       "Larger, difficult to lose weight, heavy bones"
+    },
+    {
+        "id":       2,
+        "question": "Skin" ,
+        "a" :       "Dry, cool, rough, thin, dull",
+        "b" :       "Oily, smooth, warm, freckles & moles, rosy or copper. sunburns easily",
+        "c" :       "Oily, cool, pale, thick, damp"
+    },
+    {
+        "id":       3,
+        "question": "Hair" ,
+        "a" :       "Learn HTML For Beginners With Free Book ",
+        "b" :       "https://goalkicker.com/HTML5Book/",
+        "c" :       "https://goalkicker.com/HTML5Book/"
+    }
+
+]
