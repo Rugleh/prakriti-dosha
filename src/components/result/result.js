@@ -1,5 +1,5 @@
 import React from "react";
-import "./result.css";
+import "./result.scss";
 
 function showResults(e) {
   let checkedBoxed = document.querySelectorAll("input[name]:checked");

@@ -1,5 +1,5 @@
 import React from "react";
-import "./counter.css";
+import "./counter.scss";
 
 import Button from "react-bootstrap/Button";
 import ProgressBar from "react-bootstrap/ProgressBar";
@@ -54,12 +54,12 @@ class Counter extends React.Component {
     return (
       <Row className="counter">
         <Col>
-          <Button variant="success" onClick={(e) => this.showResults(e)}>
+          <Button variant="success"  onClick={(e) => this.showResults(e)}>
             See results
           </Button>{" "}
         </Col>
         <Col className="text-left">
-          <p>vata: {this.state.vata}</p>
+          <p className="counter__result">vata: {this.state.vata}</p>
           <p>pitta: {this.state.pitta}</p>
           <p>kapha: {this.state.kapha}</p>
           Vata{" "}

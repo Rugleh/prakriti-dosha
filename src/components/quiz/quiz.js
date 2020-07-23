@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Form from "react-bootstrap/Form";
 
-import "./quiz.css";
+import "./quiz.scss";
 
 import data from "../../data/data.json";
 
