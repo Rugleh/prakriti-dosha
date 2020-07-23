@@ -1,21 +1,24 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container'
 
 
 import Quiz from './components/quiz/quiz';
 import Header from './components/header/header';
-import Result from './components/result/result';
+import Counter from './components/counter/counter.js'
 
 
 
 function App() {
   return (
-    <div className="App">
-        <Header/>
-        <Quiz/>
-        <Result/>
-    </div>
+    <Container>
+      <div className="App">
+          <Header/>
+          <Quiz/>
+          <Counter/>
+      </div>
+    </Container>
   );
 }
 
