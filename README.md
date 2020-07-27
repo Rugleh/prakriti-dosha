@@ -4,6 +4,11 @@
 #### React-Bootstrap
 #### SASS
 
+In order to compile this project on your machine install
+
+#### Node.js
+#### Yarn
+
 ### Want to help?
 
 1. Fork the project!
