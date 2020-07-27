@@ -16,16 +16,16 @@
     {
         "id":       3,
         "question": "Hair" ,
-        "a" :       "Smaller, scanty lashes, white part looks, a bit gray, nervous, blinking",
-        "b" :       "Piercing, intense, light sensitive, white part often reddish or yellow",
-        "c" :       "Larger, calm, thick lashes, beautiful, white part clear & white"
+        "a" :       "Thin, kinky, dry, brittle",
+        "b" :       "Reddish tinge, oily, early receding or balding, graying medium thickness",
+        "c" :       "Thick, oily, wavy, luxurious"
     },
     {
         "id":       4,
         "question": "Eyes" ,
-        "a" :       "Thin, kinky, dry, brittle",
-        "b" :       "Reddish tinge, oily, early receding or balding, graying medium thickness",
-        "c" :       "Thick, oily, wavy, luxurious"
+        "a" :       "Smaller, scanty lashes, white part looks, a bit gray, nervous, blinking",
+        "b" :       "Piercing, intense, light sensitive, white part often reddish or yellow",
+        "c" :       "Larger, calm, thick lashes, beautiful, white part clear & white"
     },
     {
         "id":       5,
