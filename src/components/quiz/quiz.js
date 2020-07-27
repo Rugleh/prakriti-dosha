@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import Form from "react-bootstrap/Form";
 
-import "./quiz.scss";
+import "./_quiz.scss";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 import data from "../../data/data.json";
 
 const newdata = data.map((data) => {
   return (
-    <div key={data.id}>
-      <h1>{data.question}</h1>
-      <Form.Group>
+    <Col className="quiz-col" md="6" key={data.id}>
+      <h4 className="quiz-col__question light-text">{data.question}</h4>
+      <Form.Group className="quiz-col__alternatives">
         <Form.Check
           type="radio"
           label={data.a}
@@ -32,12 +35,12 @@ const newdata = data.map((data) => {
           className="kapha"
         />
       </Form.Group>
-    </div>
+    </Col>
   );
 });
 
 export default class Main extends Component {
   render() {
-    return <div> {newdata} </div>;
+    return <Row className="quiz"> {newdata} </Row>;
   }
 }
