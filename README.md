@@ -1,4 +1,4 @@
-## Ayurveda Quiz Project 🔥 💧 🍃
+## Prakriti Quiz Project 🔥 💧 🍃
 
 #### React
 #### React-Bootstrap
