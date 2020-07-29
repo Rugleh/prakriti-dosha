@@ -74,9 +74,9 @@ class Counter extends React.Component {
       vata: vataCount,
       pitta: pittaCount,
       kapha: kaphaCount,
-      vataProportion: totalCount * vataCount,
-      pittaProportion: totalCount * pittaCount,
-      kaphaProportion: totalCount * kaphaCount,
+      vataProportion: Math.round(totalCount * vataCount),
+      pittaProportion: Math.round(totalCount * pittaCount),
+      kaphaProportion: Math.round(totalCount * kaphaCount),
       show: true,
       dosha: doshaResult
     });
